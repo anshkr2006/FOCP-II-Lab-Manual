@@ -23,3 +23,20 @@
 //     cout<<"the average of the class is :"<<AVERAGE<<endl;
 //     return 0;
 // }
+
+
+// Q3-AN ARCHITECT WANTS TO CALCULATE THE SPACE COVERED BY A CIRCULAR FOUNTAIN. IMPLEMENT A SOLN. TO COMPUTE THE AREA OF CIRCLE
+// #include <iostream>
+// using namespace std;
+
+// int main() {
+//     float A,r,pi;
+//     cout<<"enter radius of circle"<<endl;
+//     cin>>r;
+//     pi=3.14;
+//     A=pi*r*r;
+//     cout<<"the area of circle is :"<<A<<endl;
+    
+    
+//     return 0;
+// }
