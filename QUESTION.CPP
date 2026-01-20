@@ -40,3 +40,69 @@
     
 //     return 0;
 // }
+
+
+// Q4-A weather app developer needs to provide both Celsius and Fahrenheit readings. Implement a solution to 
+// convert Fahrenheit temperature into Centigrade or vice versa. 
+
+// #include <iostream>
+// using namespace std;
+
+// int main() {
+//     int f ,c;
+//     cout<<"enter temperature in fahrenheit:";
+//     cin>>f;
+//     c=(f-32)*5/9;
+//     cout<<"temperature in centigrate is:"<<c<<endl;
+    
+//     return 0;
+// }
+
+//  Q5-A shopkeeper wants to calculate the total bill amount after applying a 20% discount on the purchase. 
+// Implement a solution to accept item no., quantity, and unit price. Compute the amount and apply 20% discount. 
+
+// #include <iostream>
+// using namespace std;
+
+// int main() {
+//     int a,b,c,total,discount;
+//     cout<<"enter total item no.: \n enter quantity\n enter unit price";
+//     cin>>a>>b>>c;
+//     total=b*c;
+//     cout<<"total amount before the discount is :"<<total<<endl;
+//     discount=total-(total*0.2);
+//     cout<<"total amount after the discount is:"<<discount<<endl;
+
+//     return 0;
+// }
+
+
+// Q6-A student wants to swap the values of two variables for practising coding basics. 
+// Implement a solution to swap two numbers using different techniques.
+
+// METHOD 1-
+
+// #include <iostream>
+// using namespace std;
+
+// int main() {
+//     float x,y;
+//     cout<<"ENTER THE VALUE OF X AND Y";
+//     cin>>x>>y;
+//     cout<<"the value of x and y after swapping is :"<<y<<endl<<x<<endl;
+//     return 0;
+// }
+
+// METHOD-2
+
+// #include <iostream>
+// using namespace std;
+
+// int main() {
+//     float x=12,y=11;
+//     cout<<"the value of x and y is :"<<x<<" "<<y<<endl;
+//     cout<<"the value of x and y after swapping is:"<<y<<" "<<x<<endl;
+//     return 0;
+// }
+
+
