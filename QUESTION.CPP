@@ -105,3 +105,127 @@
 //     return 0;
 // }
 
+//  Q7-A game compares three players' scores to find who is ahead. Implement a solution to accept three scores 
+// and identify the winner. 
+
+// #include <iostream>
+// using namespace std;
+
+// int main()
+// {   int score1, score2, score3;
+//     cout << "Enter score of Player 1: ";
+//     cin >> score1;
+//     cout << "Enter score of Player 2: ";
+//     cin >> score2;
+//     cout << "Enter score of Player 3: ";
+//     cin >> score3;
+//     if (score1 > score2 && score1 > score3)
+//     {
+//         cout << "Player 1 is the winner";
+//     }
+//     else if (score2 > score1 && score2 > score3)
+//     {
+//         cout << "Player 2 is the winner";
+//     }
+//     else if (score3 > score1 && score3 > score2)
+//     {
+//         cout << "Player 3 is the winner";
+//     }
+//     else
+//     {
+//         cout << "It's a tie!";
+//     }
+
+//     return 0;
+// }
+
+
+// Q8- A monitoring system generates a sequence of numeric event IDs from 1 to N. 
+// To make logs easier to analyse, the system applies tags to certain events based on predefined rules: 
+// • Events whose ID is divisible by 3 are tagged as “Buzz” 
+// • Events whose ID is divisible by 5 are tagged as “Fuzz” 
+// • Events divisible by both 3 and 5 receive both tags
+
+// #include <iostream>
+// using namespace std;
+
+// int main()
+// {
+//     int N;
+//     cout << "Enter value of N: ";
+//     cin >> N;
+    // for(int i = 1; i <= N; i++)
+//     {
+//         if(i % 3 == 0 && i % 5 == 0)
+//         {
+//             cout << i << " BuzzFuzz";
+//         } else if(i % 3 == 0)
+//         {
+//             cout << i << " Buzz";
+//         } else if(i % 5 == 0)
+//         {
+//             cout << i << " Fuzz";
+//         } else
+//         {
+//             cout << i;
+//         }
+//         cout << endl;
+//     }
+//  return 0;
+// }
+
+
+// Q9- A text editor auto-detects whether an input letter is a vowel, a consonant or a number. Implement a 
+// solution to classify the symbol.
+
+// #include <iostream>
+// using namespace std;
+
+// int main()
+// {
+//     char ch;
+//     cout << "Enter a character: ";
+//     cin >> ch;
+//     if (ch >= '0' && ch <= '9')
+//     {
+//         cout << "It is a number";
+//     }
+//     else if (ch=='a' || ch=='e' || ch=='i' || ch=='o' || ch=='u' ||
+//              ch=='A' || ch=='E' || ch=='I' || ch=='O' || ch=='U')
+//     {
+//         cout << "It is a vowel";
+//     }
+//     else if ((ch >= 'a' && ch <= 'z') || (ch >= 'A' && ch <= 'Z'))
+//     {
+//         cout << "It is a consonant";
+//     }
+//     else
+//     {
+//         cout << "Invalid symbol";
+//     }
+//     return 0;
+// }
+
+
+// Q10-A calendar app calculates whether February has 29 days. Implement a solution to check if a year is a 
+// leap year or not.
+
+// #include <iostream>
+// using namespace std;
+
+// int main()
+// {
+//     int year;
+//     cout << "Enter a year: ";
+//     cin >> year;
+//     if ((year % 400 == 0) || (year % 4 == 0 && year % 100 != 0))
+//     {
+//         cout << "It is a leap year. February has 29 days.";
+//     }
+//     else
+//     {
+//         cout << "It is not a leap year. February has 28 days.";
+//     }
+//     return 0;
+// }
+
