@@ -1,36 +1,36 @@
-// #include <iostream>
-// using namespace std;
+#include <iostream>
+using namespace std;
 
-// class A
-// {
-//     int a1;
-//     int a2;
+class A
+{
+    int a1;
+    int a2;
 
-// public:
-//     A()
-//     {
-//         cout << "\nDefault";
-//         a1 = 0;
-//         a2 = 0;
-//     }
-//     A(int a1, int v2)
-//     {
-//         this->a1 = a1;
-//         this->a2 = v2;
-//     }
-//     void display()
-//     {
-//         cout << "\na1 = " << a1 << "\na2 = " << a2;
-//     }
-// };
-// int main()
-// {
-//     A obj1, obj2(20, 45);
-//     obj1.display();
-//     obj2.display();
+public:
+    A()
+    {
+        cout << "\nDefault";
+        a1 = 0;
+        a2 = 0;
+    }
+    A(int a1, int v2)
+    {
+        this->a1 = a1;
+        this->a2 = v2;
+    }
+    void display()
+    {
+        cout << "\na1 = " << a1 << "\na2 = " << a2;
+    }
+};
+int main()
+{
+    A obj1, obj2(20, 45);
+    obj1.display();
+    obj2.display();
 
-//     return 0;
-// }
+    return 0;
+}
 
 #include<iostream>
 using namespace std;
